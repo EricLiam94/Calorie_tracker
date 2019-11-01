@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="?attr/actionBarSize">
+    <ImageView
+        android:id="@+id/backImage"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:src="@drawable/fruits"
+        android:scaleType="centerCrop"
+        android:background="#61978F8F"
+        />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#72111111"
+    android:layout_margin="40dp"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="italic"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:textColor="#00FA58"
+        android:text="Welcome"
+        />
+    <TextView
+        android:id="@+id/goaldisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please Set your goal"
+        android:textSize="24dp"
+        android:textStyle="italic"
+        android:textColor="#00FA58"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center" />
+
+
+
+    <EditText
+        android:id="@+id/goalet"
+        android:textColor="#00FA58"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:inputType="number"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:outlineSpotShadowColor="#00FA58"/>
+
+    <Button
+        android:id="@+id/goalbt"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:background="@drawable/roundbutton"
+        android:text="Set"
+        android:layout_gravity="center"/>
+
+
+
+</LinearLayout>
+</RelativeLayout>

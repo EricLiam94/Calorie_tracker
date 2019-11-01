@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_welcome"
+            android:icon="@drawable/home"
+            android:title="Welcome"/>
+        <item
+            android:id="@+id/nav_diet"
+            android:icon="@drawable/todo"
+            android:title="My Daily Diet" />
+        <item
+            android:id="@+id/nav_steps"
+            android:icon="@drawable/run"
+            android:title="Steps" />
+        <item
+            android:id="@+id/nav_foodadd"
+            android:icon="@drawable/food"
+            android:title="Add Food"
+            />
+        <item  android:id="@+id/nav_tracker"
+            android:icon="@drawable/paper"
+            android:title="Tracker"/>
+        <item android:id="@+id/nav_chart"
+            android:icon="@drawable/stat"
+            android:title="Report"/>
+        <item android:id="@+id/nav_map"
+            android:icon="@drawable/geo"
+                android:title="Map"
+            />
+    </group>
+
+</menu>
+

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:src="@drawable/fruits"
+        android:scaleType="centerCrop"
+        android:background="#61978F8F"
+        />
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/yourgoal"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/textview_shape"
+        android:textSize="20dp"
+        android:textColor="#9200E6"
+        android:textStyle="italic"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/yourSteps"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:textStyle="italic"
+        android:textColor="#9200E6"
+        android:background="@drawable/textview_shape"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/yourConsumed"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:background="@drawable/textview_shape"
+        android:textSize="20dp"
+        android:textColor="#9200E6"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/yourBurned"
+        android:layout_width="match_parent"
+        android:textColor="#9200E6"
+        android:background="@drawable/textview_shape"
+        android:layout_margin="20dp"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:layout_height="wrap_content" />
+</LinearLayout></RelativeLayout>
